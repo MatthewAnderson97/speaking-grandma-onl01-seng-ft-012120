@@ -5,11 +5,11 @@
 # unless you shout it (type in all capitals).
 def speak_to_grandma(phrase)
   
- if phrase 
-   "HUH?! SPEAK UP, SONNY!"
+ if phrase == phrase.
+   "NO, NOT SINCE 1938!"
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
-elsif phrase == phrase.upcase
+elsif phrase.
     "NO, NOT SINCE 1938!"
 # NO, NOT SINCE 1938!
 else  "I LOVE YOU GRANDMA!"
