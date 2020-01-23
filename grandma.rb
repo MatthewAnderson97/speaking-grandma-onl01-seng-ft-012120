@@ -4,11 +4,11 @@ speak_to_grandma = phrase
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 def speak_to_grandma(phrase)
-when phrase
+ if phrase
   puts "HUH? SPEAK UP, SONNY!"
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
-when phrase.upcase
+if phrase.upcase
    puts"NO, NOT SINCE 1938!"
 # NO, NOT SINCE 1938!
 else  
