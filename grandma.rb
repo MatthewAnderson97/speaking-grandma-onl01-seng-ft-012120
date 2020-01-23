@@ -9,7 +9,7 @@ def speak_to_grandma(phrase)
     return "I LOVE YOU TOO PUMPKIN!"
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
-elsif phrase.
+elsif phrase == phrase.upercase
     "NO, NOT SINCE 1938!"
 # NO, NOT SINCE 1938!
 else  "I LOVE YOU GRANDMA!"
