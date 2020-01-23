@@ -4,10 +4,10 @@ def speak_to_grandma(phrase)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 if(phrase)
-  puts ()
+  puts ("HUH? SPEAK UP, SONNY!")
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
-
+elsif(PHRASE)
 # NO, NOT SINCE 1938!
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
